@@ -5,8 +5,8 @@ const product = new Product("123", "Cookie", 10.0);
 
 const input = {
     id: product.id,
-    name: "Cookie",
-    price: 10.0
+    name: "Cream Cookie",
+    price: 20.0
 };
 
 const MockRepository = () => {
