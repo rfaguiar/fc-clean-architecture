@@ -29,7 +29,7 @@ describe("Integration test find product use case", () => {
         const usecase = new FindProductUseCase(productRepository);
 
         const product = new Product("123", "Cookie", 10.0);
-        await productRepository.create(product)
+        await productRepository.create(product);
 
         const input = {
             id: "123",
